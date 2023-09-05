@@ -22,7 +22,7 @@ export default function Home() {
         <title>CodeChef - VIT</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-[#0d0d0d] flex flex-col h-screen w-screen">
+      <main className="bg-[#0d0d0d] flex flex-col min-h-screen w-screen">
         <div className="flex flex-col items-center justify-center gap-4 pt-8">
           <h1 className="text-5xl font-bold text-[#f4f4f4] font-inter">
             CodeChef - VIT
