@@ -39,17 +39,17 @@ export default function Home() {
               className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200"
             />
           </Link>
-          <Link href="https://techtalks.codechefvit.com" target="__blank" rel="noreferrer rooppener">
+          <Link href="https://clueminati.codechefvit.com" target="__blank" rel="noreferrer rooppener">
             <Image
-              alt="Tech Talks"
+              alt="Clueminati"
               src={clueminati}
               className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200"
             />
           </Link>
 
-          <Link href="https://techtalks.codechefvit.com" target="__blank" rel="noreferrer rooppener">
+          <Link href="https://cookoff.codechefvit.com" target="__blank" rel="noreferrer rooppener">
             <Image
-              alt="Tech Talks"
+              alt="Cookoff"
               src={cookoff}
               className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200"
             />
