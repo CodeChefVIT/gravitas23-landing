@@ -15,7 +15,7 @@ export default function Home() {
   |  /  | / \|| | \||  \ |  /  | |_||  \ |  __\  _____   | | //| |  / \  
   |  \__| \_/|| |_/||  /_|  \__| | ||  /_| |     \____\  | \// | |  | |  
   \____/\____/\____/\____\____/\_/ \\____\_/             \__/  \_/  \_/                                                                                                                
- `)
+ `);
   return (
     <>
       <Head>
@@ -32,28 +32,89 @@ export default function Home() {
           </h2>
         </div>
         <div className="h-full w-screen p-8 flex flex-col flex-grow md:flex-row gap-16 items-center justify-center">
-          <Link href="https://techtalks.codechefvit.com" target="__blank" rel="noreferrer rooppener">
+          <div>
             <Image
               alt="Tech Talks"
               src={techtalks}
-              className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200"
+              className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200 mb-2"
             />
-          </Link>
-          <Link href="https://clueminati.codechefvit.com" target="__blank" rel="noreferrer rooppener">
+            <div className="flex items-center justify-around">
+              <Link
+                href="https://techtalks.codechefvit.com"
+                target="__blank"
+                rel="noreferrer rooppener"
+              >
+                <button className="border border-white px-2 py-1 rounded-lg text-white text-xl hover:bg-white hover:text-black hover:scale-110 duration-200">
+                  Website
+                </button>
+              </Link>
+              <Link
+                href="https://gravitas.vit.ac.in/eventdetails?event=evt_90ba53bbfb134364ae49a782f5dc6fb4&image=https://i.imgur.com/DpnSSAf.jpg"
+                target="__blank"
+                rel="noreferrer rooppener"
+              >
+                <button className="border border-white px-2 py-1 rounded-lg text-white text-xl hover:bg-white hover:text-black hover:scale-110 duration-200">
+                  Register
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div>
             <Image
               alt="Clueminati"
               src={clueminati}
-              className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200"
+              className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200 mb-2"
             />
-          </Link>
+            <div className="flex items-center justify-around">
+              <Link
+                href="https://clueminati.codechefvit.com"
+                target="__blank"
+                rel="noreferrer rooppener"
+              >
+                <button className="border border-white px-2 py-1 rounded-lg text-white text-xl hover:bg-white hover:text-black hover:scale-110 duration-200">
+                  Website
+                </button>
+              </Link>
+              <Link
+                href="https://gravitas.vit.ac.in/eventdetails?event=evt_fcb5301c84764e87a77740ec9ac8d8d3&image=https://i.imgur.com/QajmOMI.jpg"
+                target="__blank"
+                rel="noreferrer rooppener"
+              >
+                <button className="border border-white px-2 py-1 rounded-lg text-white text-xl hover:bg-white hover:text-black hover:scale-110 duration-200">
+                  Register
+                </button>
+              </Link>
+            </div>
+          </div>
 
-          <Link href="https://cookoff.codechefvit.com" target="__blank" rel="noreferrer rooppener">
+          <div>
             <Image
-              alt="Cookoff"
+              alt="CookOff"
               src={cookoff}
-              className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200"
+              className="h-[25vh] w-full md:h-auto md:w-[25vw] hover:scale-110 duration-200 mb-2"
             />
-          </Link>
+            <div className="flex items-center justify-around">
+              <Link
+                href="https://cookoff.codechefvit.com"
+                target="__blank"
+                rel="noreferrer rooppener"
+              >
+                <button className="border border-white px-2 py-1 rounded-lg text-white text-xl hover:bg-white hover:text-black hover:scale-110 duration-200">
+                  Website
+                </button>
+              </Link>
+              <Link
+                href="https://gravitas.vit.ac.in/eventdetails?event=evt_2744fcd461b3442ab0dadde58705a7c7&image=https://i.imgur.com/aHpCDND.jpg"
+                target="__blank"
+                rel="noreferrer rooppener"
+              >
+                <button className="border border-white px-2 py-1 rounded-lg text-white text-xl hover:bg-white hover:text-black hover:scale-110 duration-200">
+                  Register
+                </button>
+              </Link>
+            </div>
+          </div>
         </div>
       </main>
     </>
